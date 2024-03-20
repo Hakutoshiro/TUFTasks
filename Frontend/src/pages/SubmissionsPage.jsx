@@ -27,7 +27,6 @@ export default function SubmissionsPage() {
                                 <th className='w-1/12 border-x-2'>Language</th>
                                 <th className='w-1/12 border-x-2'>StdIn</th>
                                 <th className='w-5/12 border-x-2'>SourceCode</th>
-                                <th className="w-1/6 border-x-2">StdOut</th>
                                 <th className='w-1/4 border-x-2'>Timestamp</th>
                             </tr>
                         </thead>
@@ -39,7 +38,6 @@ export default function SubmissionsPage() {
                                         <td className='w-1/12 border-x-2 border-black'>{data.prefLang}</td>
                                         <td className='w-1/12 border-x-2 border-black'>{data.stdIn}</td>
                                         <td className='w-5/12 text-start px-4 py-2 border-x-2 border-black whitespace-break-spaces'>{data.sourceCode}</td>
-                                        <td className="w-1/6 border-x-2 border-black">{' '}</td>
                                         <td className='w-1/4 border-x-2 border-black'>{data.timestamp}</td>
                                     </tr>
                                 )
